@@ -1,0 +1,190 @@
+:root {
+    --text: #82cece;
+    --background: #555b6e;
+  }
+  
+  /* Elemental Selectors */
+  
+  header h1 {
+    color: var(--background);
+    background-color: var(--text);
+    width: 17%;
+    text-align-last: end;
+    padding-right: 10px;
+    position: absolute;
+    margin-top: 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--background);
+    width: 100%;
+    height: 80px;
+  }
+  
+  nav a {
+    padding: 5px;
+    padding-bottom: 20px;
+    align-self: flex-end;
+    color: var(--text);
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  section h2 {
+    position: absolute;
+    align-self: flex-end;
+    padding: 10px;
+    color: var(--text);
+    background-color: var(--background);
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  /* Class Selectors */
+  
+  .banner {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .main-sidebar {
+    height: 100vh;
+  }
+  
+  /* MAIN CONTENT */
+  
+  .main-wrapper,
+  .main-content,
+  .inner-content {
+    display: flex;
+  }
+  
+  .main-content {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .main-content .content-box {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+  
+  .content-box img {
+    border: solid 7px var(--text);
+  }
+  
+  .main-content .content-box:first-child {
+    flex-basis: 90%;
+  }
+  
+  .main-content .content-box:nth-child(2) {
+    flex-basis: 80%;
+  }
+  
+  .content-box .content-links {
+    position: absolute;
+    padding: 15px;
+    margin-top: 500px;
+    margin-right: 651px;
+    background-color: var(--text);
+    text-decoration: none;
+    color: var(--background);
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .content-box .content-links-small {
+    position: absolute;
+    padding: 15px;
+    margin-top: 40px;
+    margin-right: 286px;
+    background-color: var(--text);
+    text-decoration: none;
+    color: var(--background);
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .content-box img {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+  }
+  
+  .content-box img:hover {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+  
+  /* CONTACT CONTENT */
+  
+  .info-box {
+    display: flex;
+    margin-top: 27px;
+    font-size: 30px;
+  }
+  
+  .info-box p {
+    padding: 10px;
+    color: var(--background);
+  }
+  
+  .info-box a {
+    padding: 10px;
+    align-self: center;
+    color: var(--background);
+  }
+  
+  /* ID Selectors */
+  
+  /* SIDEBAR */
+  
+  #about-me,
+  #work,
+  #contact-me {
+    display: flex;
+    width: 300px;
+    justify-content: flex-end;
+  }
+  
+  /* SIDEBAR-CONTENT */
+  
+  #about-me h1 {
+    border-right: solid var(--text) 5px;
+    text-align: right;
+    width: 25%;
+    padding-right: 27px;
+    height: 220px;
+    color: var(--background);
+  }
+  
+  #work h1 {
+    border-right: solid var(--text) 5px;
+    text-align: right;
+    padding-right: 15px;
+    width: 25%;
+    height: 850px;
+    color: var(--background);
+  }
+  
+  #contact-me h1 {
+    border-right: solid var(--text) 5px;
+    text-align: right;
+    padding-right: 15px;
+    width: 50%;
+    height: 100px;
+    color: var(--background);
+  }
+  
+  /* MAIN IMG */
+  
+  #main-img {
+    width: 800px;
+  }
+  
+  #contact-me {
+    color:#555b6e;
+    /* flex-basis: 100%; */
+  }
